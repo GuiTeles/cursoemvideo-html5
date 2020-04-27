@@ -1,0 +1,473 @@
+			CURSO DE HTML5 COM CSS3 E JAVA - CURSO EM VÍDEO - PROFESSOR GUSTAVO GUANABARA
+
+	Curso de HTML5 - 04 - Primeiro Exemplo em HTML5
+==========
+	Vou usar o editor de texto = Sublime [poderia usar o NotePad++ e o Jetbrains, entre outros...]
+ENTENDENDO O QUE SÃO MARCAS EM HTML
+	Uma marca em HTML é tudo que vai ser/é escrito entre os sinais <menor e maior> = isso é uma marca em html <html> ou TAG HTML também pode ser chamado.
+A grande maioria das Tags possuem uma Abertura e um Fechamento, então a Tag HTML tem um Fechamento </html> --- abrir a tag <html> fechar a tag </html>.
+
+	Antes de proseeguir é necessário para o navegador que é um documento em HTML5
+Para isso é preciso usa a Sintaxe assim:
+<!DOCTYPE html>.
+Para informar a linguagem em que está sendo escrita o código em html é preciso assim:
+<html lang="pt-br"> = esse é o parâmetro de linguagem para o navegador.
+	Dentro do documento html temos dois parâmetros bem importantes também.
+Temos o HEAD = Começa com <head> e fecha com </head>.
+E seguanda área é área BODY = começa com <body> e fecha com </body>.
+	A estrutura básica de um html fica assim:
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+
+</head>
+<body>
+
+
+</body>
+</html>
+
+	Temos as Seguintes Regras em HTML
+1 - à área head é para configurações comportamentais do site, como ele vai se comportar/será configurado.
+2 - na área body é onde aparece visualmente tudo que vai acontecer.
+
+	Vamos utilizar uma tag nova para adicionar a correção no parâmetro head.
+<meta charset=""> = significa conjunto de caracteres, vamos utilizar o charset conjunto latino americano = utf8.
+A Tag <meta> não tem fechamento -> <meta/> isso não existe nela, nesse caso pode deixar a tag "aberta" ou colocar o /(barra) no final da tag.
+
+	Vamos configurar uma nova tag comportamental - a tag title -
+<title> a tag title tem fechamento </title>			ATENÇÃO!!! TODAS TAGS QUE TEM FECHAMENTO RECEBEM A /(BARRA) ANTES DA TAG EX:</body>; </title>; </head>; </html>...
+
+	Mais uma nova Tag - h1
+A tag h1 serve para criar um título -- principalmente para um bloco especial -- sempre que vai usar um título/frase/tema principal usa o h1.
+A tag h2 é o subtítulo de h1.
+A tag h3 é o subtítulo de h2 e por vai...
+
+			CSS SÃO FOLHAS DE ESTILOS - MUITO USADOS PARA FORMATAÇÃO E QUALIDADE DE SITES E PROGRAMAS
+Vamos aprender uma tag nova baseada no css3 para melhorar o site.
+Formatação também é uma configuração comportamental, por isso é usado no CAMPO HEAD(CABEÇALHO).
+Vamos criar outra tag no cabeçalho -- tag style <style> </style> -- e tudo que estiver entre a tag style será considerado como estilo da página.
+Para usar uma tag em CSS no html5, vamos abrir o h1 com {} na tag de cabeçalho, tudo que estiver entre as chaves vai ser a formatação de h1 e essa é uma configuração de CSS.
+Configurações de CSS sempre são feitas em letras minúsculas.
+
+	Tags básicas em html5
+Vamos criar a Tag [div = Divisão], serve para dividir partes do conteúdo no site, etc...
+<div> </div> ela vai dentro do body.
+É necessário indenticar a div colocando um ID/id=interface.
+
+No HMTL5 podemos agrupas os títulos, para isso usa o a tag = <hgroup></hgroup> -- logo tudo que está entre essa tag, é considerado um grupo de títulos.
+Para adicionar imagens - existe uma tag chamada - <img src""> a tag img é para imagens, o parâmetro principal de uma tag <img (é o) src[source = origem] e entre as aspas eu informo
+o caminho da imagem>. --- NOTA! deve-se colocar o caminho completo da imagem ou do arquivo em que está a imagem/vídeo e que vai usar, ex: pasta/caminho-curso-etc...
+Vamos delimitar o cabeçalho para saber as divisões e onde se encaixa cada coisa no site.
+é preciso então usar um header já dentro do cabeçalho principal; e nesse mesmo header eu incluo um um id=para identificar qual será esse cabeçalho.
+
+	Paragráfos e Quebras em html5
+Em html não tem como pular linhas/quebra de linhas e nem avançar em linhas com botão de espaços, para o naveegador isso não é possível assim:
+é preciso de tags próprias pra isso. a tag <br [break rom = quebra de linha] faz o trabalho de quebrar linhas no navegador, detalhe, ela não possuo fechamento.
+Para espaços laterais é preciso de marcas especiais no html5 -> tag = &nbsp; [Non breaking space = espaço sem quebra], para essas tags devem ser respeitados e obrigatórios o uso de caixa alta se precisar
+que maiúsculas ou minúsculas e o ponto e vírgula no final -- E O PRINCIPAL PAPEL DO &nbsp; É DE DAR ESPAÇO SEM QUEBRA, OU SEJA, NA MESMA LINHA.
+	a tag <p></p> = Serve PARA EXPOR QUE É UM PARAGRAFO QUE EU TO USANDO NO SITE E DELIMITAR ONDE SÃO ESSES PARAGRÁFOS.
+AGORA vamos ver o que é Hifienização e quebra de palavras > para fazer uma quebra de palavras que é usado quando necessário para separar palavras, a gente usa o -- <wbr [word breaker = quebra de palavra]>
+e a tag wbr não tem fechamento então eu posso colocar a /[barra] de fim nela mesmo indicando o final.
+No nosso idioma somos acostumados a usar hífen para quando quebrar uma palavra este indicar onde a continuação da palavra surge, para isso usamos a tag = &shy; [Soft Hyphen. Burro. = Hífienização rápida].
+VAMOS VER ALGUNS SÍMBOLOS AGORA
+	&lt; = menor que <
+	&gt; = maior que >
+	&le; = menor ou igual a <=
+	&ge; = maior ou igual a >=
+	&pund; = libra.
+	&yen; = yen.
+	&euro; = euro.
+
+	&copy; = copyright de direitos reservados
+	&reg; = marca registrada.
+	&trade; = TM de trade mark
+	&permil; = Para porcentagem em mil.
+	&sum; = soma.
+	&infin; = infinito.
+	&times; = multiplicação.
+	&plusmn; = mais ou menos.
+	&oplus; = mais dentro de uma circunferência.
+	&radic; = radiciação.
+	&ne; = diferença. [no igual = não igual]
+	
+	letras gregas.
+	&delta; (δ = minúsculo), &Delta; maiúsculo (Δ).
+	&Lambda; = Λ
+	&omega; = ω
+	&phi; = φ
+
+	setas
+	&larr; = seta para esquerda [left arrow].
+	&Rarr; = seta para direita [right arrow]; se colocar o primeiro R em Maiúsculo ele muda a seta.
+	&uarr; = seta para cima [ up arrow].
+	&darr; = seta para baixo [ down arrow].
+	&harr; = seta para os dois lados.
+
+	alguns símbolos especiais
+	&spades; = espadilha = naipes das cartas.
+	&clubs; = paus = zappe.
+	&hearts; = copas.
+	&diams;  = ouro.
+REMOVER OS CÓDIGOS DE EXEMPLO.
+
+		Curso de HTML5 - 07 - Formatação de Texto com HTML5 e CSS3
+	A tag = b[bolder = negrito] deixa o texto em negrito.
+	tag <i></i> = deixa o caractere em itálico.
+	tag <em></em> = ênfase [deixa em itálico tbm.
+
+	Tags que deixaram de existir no html5 do html4
+tag <u></u> - de sublinhado.
+tag <s> = straik = riscado.
+tag <del> = indica que o texto está deletado; a tag s foi substituída pela tag del.
+tag <span></span> = serve para formatar pequenos trechos de texto; = configurar o estilo do span = style="text-decoration: underline/overline; [sublinha o texto e a 2 poe em cima a linha]."
+	line through = riscado , mesma tag.
+
+	FORMATAÇÃO DO TEXTO COM NEGRITO
+Tag <span style="font-weight:normal;"> = deixa o texto com normal - [bolder = deixa bem escuro; bold = deixa negrito]
+se colocar números também deixam em negrito = 900/1000.
+	Maneiras de alinhar o texto
+<H2 align="center"> = está depreciada pelo html5.
+a maneira correta é essa: <H2 style="text-align: center"> pode-se usar = left, right, center...<p style="text-align: justify; text-indent: 50px"> = serve para identar o texto/colocar parágrafo.
+Para colocar identação no texto todo, basta por: <style type="text/css">
+		p{
+			text-align: justify;
+			text-indent: 50px;
+
+		}	
+
+	</style> ======= Esses são os Parâmetros para colocar todos paragráfos em maiúsculas.
+	E a partir de agora usamos o CSS para formatar e não o html.
+Exemplos de outras formatações: </sup> = deixa o texto sobescrito.
+<sub> = subrescrito = em baixo.
+<p>Exemplos de <sub>Formatação</sub></p>
+<p> x<sup>2</sup> e H<sub>2</sub>0</p>  ======= EXEMPLOS DE FORMATAÇÃO.
+	Tag para colocar códigos no html5 = <CODE>
+	Tag para deixar pré-formatado o texto, ou seja, todos os espaços serão considerados = </pre>
+<pre>
+<CODE>
+#include &lt;iostream&gt;
+int main() {
+	count <<"Olá, Mundo!";
+	return 0;
+
+}
+
+</CODE>
+</pre>
+&nbsp; = tirei do texto
+
+		Colocar cor na página utilizando o CSS
+bgcolor=""> = padrão antigo
+novo padrão = body {
+			background-color: blueyellow;
+			color: red;
+		} ================== esse padrão serve para colocar cor no site em CSS.
+mas vamos utilizar método Hexadecimal [códigos de cores, pegando em sites de cores].
+	Códigos de formatação em Hexadecimal são compostos por 6 dígitos sendo eles:
+00 =[os dois primeiro são o vermelho] - 11 =[os dois do meio são o verde] - 22 =[e os dois ultimos são o azul] ex:60-vermelho;45-verde;3E-Azul.
+(o RGB é um padrão de cor que utiliza R-RED; G-GREEN; B-BLUE, cada um possue 3 digitos para definir a cor.
+o padrão do Preto para RGB é 0,0,0
+0,0,0,0 == é o maior nível de transparência.
+0,0,0,0,1  == teremos 10% de transparência.
+0,0,0,1 == é o maior nível de alfa [ totalmente vísivel e opaco] = 0,0,0,0,5 = 50% de opaco
+Temos outros padrões de cores tbm = H: [HILL = MATIZ]; S: [SATURATION = SATURAÇÃO]; B: [BRIGHT = BRILHO/LUMINOSIDADE]. Os valores são dados em % porcentagem.
+	color: rgb(0, 0, 0, 0.2); = esse é o código para deixar transparente o site em %.
+				background-color: hsl(165, 81%, 93%); = código para colocar o hsl no site = matiz, saturação e brilho.
+			hsla o [a] é de alfa = padrão para deixar a cor do site transparente em porcentagem.
+
+
+		Imagens em HTML5
+Arquivo fundo.jpg (não temos ele, mas pode usar qualquer um como exemplo)
+O arquivo fundo deve ficar na mesma pasta que o arquivo index.html
+Colocar uma Referência para a próxima foto = <img src="fundo.png"/>
+Para diminuir o tamanho do arquivo deve colocar assim: width[largura] ="300"
+Vai em Interfaces para colocar a imagem que pertence ao fundo do site == depois volte em imagem e escolha a imagem = glass-quadro-homem-mulher.jpg
+É PRECISO COLOCAR O CAMINHO DO LOCAL DA IMAGEM QUANDO ela não está no mesmo lugar que o arquivo .index  = _imagens/
+Não é necessário colocar o caminho absoluto nos caminhos para imagens
+
+Vamos ver mais duas Tags novas no html5
+tag = <figure>tag usada para colocar imagens e dar um significado semântico a elas</figure>
+OBS: A DATA DE LANÇAMENTO ESTAVA MARCADA COM = H2, EU MUDEI PARA H1
+Toda imagem de um conteúdo vai ser colocada entre um <figure>
+Para colocar uma Legenda na imagem, use a tag = <figcaption>ter que usar dentro do <figure>; depois é necessário um parâmetro para delimitar a hierarquia da legenda - <h3>, e pode usar 
+parágrafos também </figcaption>
+
+			Curso de HTML5 - 10 - Formatação de Imagens com CSS3
+Vamos ter que fazer um stilo separado para o html, porque já está ficando com muita formatação acumulada.
+1 - Pega todo código com o estilo = 		body {
+			background-color: white;
+			color: rgba(0, 0, 0, 1); 	
+		}
+		p{
+			text-align: justify;
+			text-indent: 50px;
+  
+		}	---------------------------- E depois recorta, vai no projeto > na pasta de _CSS > Vai ter o arquivo estilo.css, que vai lidar com todos estilos do nosso site;
+Clica no .css = vai abrir um bloco de notas > escreva o parâmetro - @charset "UTF-8]'; esse é o mesmo código html, serve para o portugues.
+Cola o arquivo de estilo do CSS aqui no bloco de notas do css - agora vamos ver como chamar no html esse arquivo em css.
+Remove o código de style > e no lugar vamos colocar uma tag nova chamada - <link rel="stylesheet" type="text/css" href="">  === esse é o código.
+[stylesheet = folha de estilo]; [href = Hypertext reference = referência e hipertexto = que é quando eu chamo um arquivo de fora].
+
+Toda vez que eu arquivo está fora da pasta do projeto é preciso colocar o caminho e o nome da pasta completo e até o jeito como ela está; exemplo: _css/estilo.css [o 1 é pasta; o 2 é local do arquivo].
+/*  */ = serve para criar um comentário, nos orientando onde e como está a formatação e os locais dos estilos.
+É hora de definir uma classe para imagem > vai até o figure > <figure class="foto-legenda"> - essa é a classe para o estilo - agora vamos até o estilo.css para trabalhar nele.
+/* Formatação de imagens com legendas */
+
+figure.foto=legenda {
+	
+} ----------------- Isso indica que tem uma formatação aqui.
+box-shadow: 1px 1px 4px black; ---- esse é o código para colocar sombra- 1 =  deslocamento horizontal; 2 = vertical; 3 = espalhamento; 4 = cor.
+figure.foto-legenda figcaption {
+	position: absolute;
+	top:0px;
+} ----------------------- Esse é o código para remover o figcaption da imagem, a legendinha de baixo; o figcaption é o filho do figure no termo técnico.
+O hover = serve para puxar e exibir um objeto quando o mouse é passado sobre ele.
+
+
+			 Listas em HTML5 com OL e UL
+Vou mexer no menu principal
+	Para não haver muitos h1, devido a hierarquia, colocamos dentro de um contanier > <nav></nav> = esse é o contanier nav - que vai criar uma área de navegação dentro do site.
+	Então tudo que estiver dentro de nav e /nav , vai ser o menu de navegação.
+	Pronto agora fica formatado no site o nav - ele indica que o menu é o principal de navegação - agora vamos montar as listas
+	No html 5 existem dois tipos de listas = Ordered list = ol = listas ordenadas/ unordered list = ul = listas não ordenadas.
+	Dentro de cada uma das listas temos - os ítens de listas - é o = Listen items = li = ítens de listas.
+	Colocando o - ol dentro do nav - ele se torna uma lista ordenada.
+Remover os tracinhos dos ítens, pois eles serviam apenas como referência
+	Colocando os - li dentro de cada íten - faz que as palavras escolhidas do site, fiquem listadas.
+<nav>
+	<h1>Menu Principal</h1>
+	<ol>
+		<li>Home</li>
+		<li>Especificações</li>
+		<li>Fotos</li>
+		<li>Multimídia</li>
+		<li>Fale conosco</li>
+	</ol>
+</nav> ========================================== ficou assim - temos um menu de navegação = um título = e uma lista ordenada.
+
+	Existem três tipos de listas ordenadas - <ol type="1"> = esse é o de padrão para fazer uma sequência em números.
+	<ol type="a"> - cria uma lista ordenada alfabética.
+	<ol type="A"> - mesma coisa da de cima, porém em maiúsculas.
+	<ol type="i"> - cria a lista em formato de números romanos.
+	<ol type="I"> - mesma coisa só que com algarismos romanos.
+	<ol type="1" start="3"> - essa modificação na tag, é para informar por onde quero começar a sequência de números.
+	<ol type="a" start="3"> - indica o mesmo que acima, porém note que o alfabeto vai começar pela letra C, dado que foi pedido para começar pela terceira contagem.
+Agora são as listas não ordenadas.
+
+	<ul type="ul"ítem</ul> = indica que a lista não possui uma ordem, ficando com demarcadores ou, pontinhos, etc...
+	Há também 3 valores de types para listas não númeradas/ordenadas.
+	<ul type="square" > - transforma em quadrados.
+	<ul type="circle"> - mesmo que em cima mas em círculos.
+	<ul type="disc"> - pequenos círculos, com bolinhas completamentes pretas.
+	<ol>
+		Músicas
+		Vídeos
+		</ol> ================ essa é uma maneira de criar uma lista ordenada, dentro de uma lista não ordenada.
+
+			Curso de HTML5 - 12 - Links em HTML5
+1 - Vamos ver como funcionam os links no HTML - 
+2 - Tirar o - Project Glass - e transformar em um link > 1º tirar o Itálico  e colocar uma [âncora = ela é a base para criar um link].
+3 - Para isso temos que usar o <href> hyper text reference - para usar como referência - ficando assim: <a href="http://glass.google.com">
+	3.1 - para buscar o link é preciso usar a sintaxe de busca completa > http://.... assim o código referenciado não tem erro.
+4 - Vamos ver como fazer ele abrir o Link por outra aba, não na nossa - a sintaxe para fazer abrir em outra aba = <a href="http://glass.google.com" target="_blank">Project Glass</a>
+	4.1 - para continuar deixando abrindo no nosso site, é só por _self no lugar do blank.
+5 - Removemos a parte de listas que não fazem parte do nosso site, foi utilizado na aula de listas
+	<ul>
+			<li>Músicas</li>
+			<li>Vídeos</li>
+		</ul>     ======================= sintaxe do código.
+6 - Nessa parte vamos criar links para o site > home - <li><a href="index.html">Home</a></li>   ======== sintaxe completa para criar o link ======
+	6.1 - <a href="index.html">Home</a> ====== Sintaxe para chamar links.
+7 - Para indicar uma pasta como link, basta usar uma sintaxe diferente que vai fazer ele chamar o arquivo dentro de uma pasta especifica > <a href="_textos/multimidia-txt.html">Multimídia</a>
+	7.1 - Essa de cima é a sintaxe que faz o link pegar dentro da pasta algum arquivo especificado.
+
+			Curso de HTML5 - 13 - Menu com CSS3
+1 - Vamos usar o CSS para fazer e melhorar o Menu -
+2 - Vamos criar 1º modo de navegação para o nosso menu > no arquivo index.html, vamos colocar onde está o <nav> assim <nav id="menu">, formando a sintaxe.
+3 - Vamos ao arquivo stilo.css, (tem que está aberto no blocode notas para receber edição).
+	3.1 - no parâmetro do código onde está - <link rel="stylesheet" type="text/css" href="_css/estilo.css">, podemos omitir o type="text/css", para diminuir o código.
+4 - Para fazer a formatação do código no CSS com formatação que tenha um ID, é preciso usar o #[hashtag/cerquilha] no <nav>.
+5 - estamos fazendo formatação via CSS do menu - O Padding é o espaço dentro do botão, enquanto que o Margim é o espaço de fora dos botões, ou entre os botões.
+6 - Fazendo um menu flutuar > nav#menu {
+	display: block;
+}   ==============================================  essa é a sintaxe de um bloco, e um bloco é o que flutu no site.
+7 - vamos fazer o bloco flutuar apenas na lista, ele vai passar "por cima" dos documentos, temos duas posições - 1º absoluta & 2º relativa.
+	7.1 - Posição relativa, ele fica preso dentro do contêiner; posição absoluta ele fica livre pelo site.
+
+==============================================================================================================================================================================================================
+					Formatação de Interfaces com HTML5
+1 - No Stilo.css, vamos colocar uma div de interface para formatar a primeira interface do topo no site; Então, coloquei o parâmetro - width 400px, para fazer a formatação da interface do site, mas
+	ainda não pegou a parte do - home no site.
+2 - Para deixar o fundo cinza, basta colocar a sintaxe de #dddddd; agora vamos deixar a interface com um fundo branco - #ffffff.
+3 - Para deixar o testo alinhado é preciso, vamos fazer a configuração da - margim no site, ele respeita uma ordem = cima, direita, baixo e esquerda; a margem da Direita é a segunda, e a da Esquerda é
+		a quarta.
+4 - vamos deixar que o - Navegador edite sozinho o tamanho da fonte na Direita e na Esquerda; para isso basta colocar um comando chamado = auto.
+	box-shadow: 0px 0px 10px black; == comando para por sombra no site. - rgba(0,0,0,.5) - comando para a borda mais suave.
+5 - O parâmetro -- (.. = volta uma pasta no html).
+6 - Continuando === O meu site está com resolução de [ 1875px pois o meu PC é de 1920px, e os 900px não estava deixando em tela inteira; a formatação que o Guanabara pôs é de 900px].
+	6.1 -- A formatação da posição do Óculos está em: [position = absolute; left = 780px; top = 70px; - essa é que o Professor deixou, vou alterar ela para ficar com a resolução referente ao meu pc].
+	6.2 --- (VOU EDITAR DEPOIS A PARTE DO ÓCULOS  E DO MENU, DA RESOLUÇÃO NA TELA TODA).
+	6.3 -- Margin - Servem para trabalhar com centralização do site, e edição da posições.
+		6.0.1 - Nota! O Guanabara deixou na edição o site com Tamanho de: width: 900px; --- Ele disse que depois vamos configurar melhor para resolução da tela toda, por isso voltei a manter
+ao que era antes.
+	6.4 - Se deixarmos o Padding com 10px; de resolução para melhora de texto, o Navegador entende como padrão e deixa sempre e todos os 4 lados iguais.
+
+==================================================================================================================================================================================================================
+					 16 - Cabeçalho em CSS3 -
+ -- Voltamos a editar o Cabeçalho do Site com o CSS3:
+ - Estamos configurando o <header> cabecalho - para formatação da parte de cima do site.
+ -- O cabecalho em height configuramos a altura do menu principal com o site.
+ --- Para localizarmos uma imagem e chama-la por pastas, utilizaremos um modo de caminho: definir um background: [para carregar uma imagem em CSS3, é preciso utilizar uma url = é o endereço do objeto]...
+	--- url("..[para voltar uma pasta]/_imagens/glass-logo-peq.jpg") = essa é a sintaxe do comando para chamar a imagem de outra pasta; Para que fique apenas como uma imagem padrão, pois ele
+está repetindo ela, utilizamos outro comando: no repeat [parâmetro para não repetir o objeto], 0px 80px; esse deslocamento faz a logomarca ficar onde queremos.
+ -- Definindo o h1 & h2 - Parâmetros de html = header#cabecalho h1 {
+	font-family: Arial, sans-serif;
+	font-size: 30pt;
+	color: #606060;
+	text-shadow: 1px 1px 1px rgba(0,0,0,.6);
+}
+
+header#cabecalho h2 {
+	font-family: arial, sans-serif;
+	color: #888888;
+	font-size: 15pt;   ===================================================   Para não esquecer mais: Padding = Espaço Interno; Margin = Espaço Externo.
+
+ -- Mragin-bottom = apenas pega a margem debaixo.
+
+=================================================================================================================================================================================================================
+
+		 17 - Fontes em CSS3
+ - Em CSS, conseguimos colocar fontes de 3 Maneiras - Padrão = Colocando o nome da Fonte; Utilizando Fontes Personalizadas, que eu tenha no site; Inclusão de Fontes Externas = Fontes de Sites Externos
+que são especificos pra isso == É essa maneira que vamos aprender e utilizar.
+
+ -- Junto com os Arquivos do Guanabara, temos os arquivos = Fonts - temos duas fontes, vou usar a: bubblegum.
+ -- @font-face {
+	font-family: [definição da fonte];
+	src:[origem de onde pega a fonte] url();  ================ Parâmetros que fica em baixo do primeiro @charset - para incluir fontes externas ao CSS.
+ -- Em fonte family temos que dar um nome a nossa fonte = FonteLogo (usando aspas simples).
+ --- src: url("../_fonts/bubblegum-sans-regular.otf	"); == comando completo para definir de onde, como e qual fonte ele deve trazer.
+ --- Retornar ao H1 - Onde está font-family = arial, substituir por = 'FonteLogo';
+ ---- Para pegarmos Fontes do google = basta ir no Site assim: google.com/fonts ==== vai acessar o site do google fontes, ele é público e grátis, com fontes que podem ser utilizadas.
+ ---- Vamos escolher uma fonte > Colocar uma fonte do google fonts no meu site - Titillium Web (usar essa fonte) - Ir em Import to CSS e Selecionar o Texto = Copiar o texto e colocar
+	entre - @charset e @fontface, cola no meio deles > @import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
+ ----- Basta fazer isso e mais um comando para ele puxar a fonte do google > como integrar a fonte ao meu CSS > (Specify in CSS) = font-family: 'Titillium Web', sans-serif; -VOltar ao CSS
+	ir ao H2, que é onde estamos configurando, remover o font-family atual, e Substituir pelo o que o google fontes indicou = font-family: 'Titillium Web', sans-serif;
+ ---- Clica em salvar e atualizar o site, tudo ok. ATENÇÃO!!! Caso ele não encontre a fonte que eu coloquei para subir ao cliente, ele(navegador) pega a fonte padrão - sans serifa e etc...
+==========================================================================================================================================================================================================
+
+	18 - Semântica em HTML5
+
+ - Vamos aprender a usar 3 Tags novas do HTML:
+	-- section = Seção (Serve para delimitar a área principal do Site, ou sejá, fazer as seções necessárias para o site).
+	-- aside = Parte de lado (Serve para organizar e estruturar o Site em relação á seção, coloca o lado secundário do site).
+	-- footer = Rodapé = (Serve para colocar/ajustar o rodapé no site).
+ - Vamos começar a mexer na Seção:
+ -- Da linha 31 até a linha 69 - temos uma seção, que é a que vai ficar do lado esquerdo.
+ -- Vamos começar a estruturar - Vai começar na linha 32, (perto do </header> e do <hgroup>); <section id="corpo"> é a seção do meu site</section>.
+ - <aside id="lateral"> parte que vai transferir o conteúdo para a lateral do site </aside>; [Tudo que estiver entre ela, vai ser o conteúdo lateral].
+ -- <footer id="rodape"> e aqui entra o rodapé </footer> parte final do site, com links e informações importantes.
+ - Ir ao Estilo CSS.
+ --- Vá abaixo de tudo, abaixo de nav#menu; Dispaly: block; para ser mostrado como um bloco.
+ --- Para objetos configurados com display block, entra uma configuração importante para fazer os elementos mudarem o percurso, usamos o = float = flutuar.
+ -- O float = faz os objetos "flutuarem" de um lado para o outro, mas lembre-se os objetos precisam estar configurados em blocos.
+ -- Para fazer Links aparecer em teleas novas usa-se o comando = target ="_blank" , dentro da sintaxe do comando. == <a href="http://facebook.com/cursosemvideo" target="_blank">Facebook</a> 
+	 Essa é a maneira correta de fazer o target.
+==============================================================================================================================================================================================================
+
+		19 - Tabelas em HTML
+
+ - Vamos Continuar e ver Como montar tabelas no HTML5.
+ -- Tag de uso = <table> O barra table fica no final de nossa tabela </table> =======
+ -- Para por o nome na tabela use a Tag = <caption> Nome da Tabela </caption> ======= 
+ --- Toda tabela é composta de linhas, e Todas as Linhas São Compostas de Células; As Linhas são as = tag [table rows <tr>]; uma tabela pode ter várias linhas, cada uma delas delimitadas por um <tr>
+	e um </tr> e dentro de um <tr> nós vamos ter células; cada uma dessas células vão ser dados que vão compor a tabela, então é utilizada a tag = table data <td>
+	vamos a prática.
+ - Vamos usar um método do HTML = rowspan [expansão em linha] = serve para alocar a tabelas e na mesma linha com posições diferentes.
+ - Seguindo a mesma linha de raciocínio, nós temos as Expansões de Colunoas [ colspan] ====== Vamos criar uma linha extra como exemplo: <tr><td colspan="2">Linha Extra</td></tr>
+	Cria uma linha única para a Coluna - deixa o texto na mesma coluna.
+ -- Vamos continuar a ver os alinhamentos na próxima aula...
+============================================================================================================================================================================================================
+
+		20 - Estilos CSS para Tabelas em HTML5
+
+ - Vamos Reformular as tabelas de CSS, para isso vamos ver um conceito novo -- o Class.
+ -> Classe = Uma Classe serve para definir a formatação de vários objetos, então cada objeto tem um ID, mas podemos colocar a mesma classe para vários objetos.
+	- Então no HTML nos vamos fazer uma demarcação de classes. Tudo que estiver na Coluna da Esqquerda vou chamar de Coluna da Esquerda, e tudo que estiver na Direita eu vou chamar de coluna da direita.
+	-- Tag de Class = <td class="ce"(Coluna da Esquerda"). <td class="cd" = coluna da direita.
+
+ --- Ir no arquivo da CSS e editar o CSS.
+	Estou editando ja os arquivos - a Tag Class sobrepõe o que foi definido como tag principal.
+=======================================================================================================================================================================================================
+
+		21 - Interfaces em HTML5
+
+ - Veja como construir interfaces complexas utilizando apenas HTML5 e CSS3. Na versão 5, temos várias tags semânticas como HEADER, SECTION, ASIDE, NAV, FOOTER e ARTICLE.
+
+Para criar um artigo em HTML5, utilize a tag ARTICLE. Os conteúdos relacionados a esse artigo podem ser tratados como ASIDE.
+
+É importante saber que podemos usar a tag HEADER para qualquer tipo de cabeçalho, não apenas para o cabeçalho do site. Nessa aula, veremos que um ARTICLE também pode possuir um cabeçalho HEADER.
+
+Para formatar os componentes, utilizamos alguns modificadores das CSS3, como: 
+margin, padding, color, background-color, font-family e muito mais.
+
+	--- ESSA É a última parte da Formatação do "Rosto da página" ou seja, da parte principal
+
+ - Tags que já vimos para Montar o Corpo do Texto:
+	<header>
+	<section>
+	<aside>
+	<nav>
+	<footer> ///// e agora vamos usar uma nova ->
+	<article> = [quer dizer artigo].
+
+ -- Dentro da nossa seção temos um artigo, porém vamos ver como funciona colocar mais de um artigo usando a tag <article>.
+ -- Em HTML5 Quando estamos fazendo um código, na sintaxe do código, na linguagem diretamente, não pode colocar acentuação.
+ --- Uma mesma section pode ter vários artigos.
+
+ ---- Uma Letra com Serifa = Uma Letra que tenha Traços nas pontinhas dela, dando um visual mais profissional a letra; Sem serifa, é uma letra sem as pontinhas/bordinhas nas pontas.
+
+================================================================================================================================================================================================================
+
+	E na Próxima aula teremos a Introdução básica ao JavaScript!!! ISSO É TUDO PESSOAL, VIDA LONGA E PRÓSPERA...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
